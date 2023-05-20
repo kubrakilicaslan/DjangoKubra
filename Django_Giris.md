@@ -8,17 +8,17 @@ Django öğrenebilmek için birçok web sitesi ve uygulamalı videolar mevcuttur
 ## **-Kurulum**
 
 Django kullanmaya başlamadan önce kurulumlarımızı tamamlamamız gerekir. Öncelikle kullanacağımız dil Python olduğundan güncel bir Python sürümü kurmamız gerekir. Kodlarınızı daha rahat yazabilmek için basit bir kod editörü kurabilirsiniz.   
-Python projelerinde kullanacağınız paketleri doğru ve sade bir şekilde yönetmek için virtualenv (Virtual Environment) kurabilirsiniz. Kullanacağınız paketlerin listesini tutabilmek için ise requirements dosyası oluşturmalısınız.    
-Bahsettiğim kurulumların farklı işletim sistemlerinde farklı adımları olduğundan paylaşacağım bağlantıdan kendi işletim sisteminizi bulup kurulum sağlayabilirsiniz.
+Ptyhon projelerinde kullanacağınız paketleri doğru ve sade bir şekilde yönetmek için virtualenv (Virtual Environment) kurabilirsiniz. Kullanacağınız paketlerin listesini tutabilmek için ise requirements dosyası oluşturmalısınız.    
+Bahsettiğim kurulumların farklı işleti sistemlerinde farklı adımları olduğundan paylaşacağım bağlantıdan kendi işletim sisteminizi bulup kurulum sağlayabilirsiniz.
 
 [Installation](https://tutorial.djangogirls.org/tr/installation/)
 
 ## **-Proje Başlatmak**
-Terminalde yeni Django projeniz için kullanacağınız bir dosya oluşturun:
+Terminalde yeni Django projeniz için kullanacağınız bir klasör oluşturun:
 ```
-$ django-admin startproject myproject .
+$ django-admin startproject mysite .
 ```
-myproject dosyasını oluşturduğunuzda dosyanıza bağlı birden çok dosya yüklenecek. Django'nun en güzel yanı, tüm ihtiyaçlarınız size sunulacak.  
+mysite klasörünü oluşturduğunuzda klasörünüze bağlı birden çok dosya yüklenecek. Django'nun en güzel yanı, tüm ihtiyaçlarınız size sunulacak.  
 Başladığımız projenin çalışıp çalışmadığını kontrol edelim:
 ```
 python manage.py runserver

@@ -24,3 +24,5 @@ Başladığımız projenin çalışıp çalışmadığını kontrol edelim:
 python manage.py runserver
 ```
 http://127.0.0.1:8000/ adresimizin doğru bir şekilde çalışması gerekiyor. Eğer hata aldıysanız dosya konumlarınızı kontrol edin.
+
+*CTRL+C ile terminal komutlarını durdurabilirsiniz.*

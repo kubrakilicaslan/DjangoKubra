@@ -18,4 +18,4 @@ Terminalde yeni Django projeniz için kullanacağınız bir dosya oluşturun:
 ```
 $ django-admin startproject myproject
 ```
-myproject dosyasını oluşturduğumuzda dosyamıza bağlı birden çok dosya yüklenecek. Django'nun en güzel yanı, tüm ihtiyaçlarınız size sunulacak.
+myproject dosyasını oluşturduğumuzda dosyanıza bağlı birden çok dosya yüklenecek. Django'nun en güzel yanı, tüm ihtiyaçlarınız size sunulacak.

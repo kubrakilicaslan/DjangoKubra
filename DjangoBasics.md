@@ -12,3 +12,10 @@ Ptyhon projelerinde kullanacağınız paketleri doğru ve sade bir şekilde yön
 Bahsettiğim kurulumların farklı işleti sistemlerinde farklı adımları olduğundan paylaşacağım bağlantıdan kendi işletim sisteminizi bulup kurulum sağlayabilirsiniz.
 
 [Installation](https://tutorial.djangogirls.org/tr/installation/)
+
+## **-Proje Başlatmak**
+Terminalde yeni Django projeniz için kullanacağınız bir dosya oluşturun:
+```
+$ django-admin startproject myproject
+```
+myproject dosyasını oluşturduğumuzda dosyamıza bağlı birden çok dosya yüklenecek. Django'nun en güzel yanı, tüm ihtiyaçlarınız size sunulacak.

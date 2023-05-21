@@ -6,7 +6,7 @@ python3 manage.py startapp blog
 ```
 Blog klasörümüz içinde yine Django'nun bize sunduğu hazır dosyalarımız gelecek. Şimdi yapmamız gereken klasörlerimiz arasında bağlantı kurmak. Bunun için mysite klasöründen settings.py dosyasına gitmeliyiz. Oluşturmaya başladığımız blog klasörünü settings.py'deki INSTALLED_APPS bölümüne yazalım ve böylece projemize oluşturduğumuz yeni klasörü (blog) tanıtmış olalım.
 
-## **Urls & Views**
+## **-Urls & Views**
 Sahip olduğumuz adresten başka sayfalarımızın adreslerine gitmek istersek ne yapacağız?     
 Mesela, http://127.0.0.1:8000/ bu adres bizi ana sayfada tutarken biz blog sayfasına gitmek istiyoruz. O halde adresimizin sonuna blogs/ yazısını (ya da nereye gitmek istiyorsak) ekleyebiliriz. Ancak bu adresi henüz tanımlamadık.   
 Öncelikle blog klasörümüze gidip urls.py isimli bir dosya açmalıyız.    

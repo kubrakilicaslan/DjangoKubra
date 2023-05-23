@@ -5,3 +5,6 @@
  
 - Bölüm 2: Urls_Views
   * Bu bölüm yine kendi oluşturduğumuz diğer sitelere nasıl erişeceğimizi öğrenmenizi sağlar.
+  
+- Bölüm 3: Templates
+  * Bu bölüm Django şablonlarını öğrenmenizi sağlar

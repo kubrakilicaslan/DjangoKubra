@@ -7,4 +7,7 @@
   * Bu bölüm yine kendi oluşturduğumuz diğer sitelere nasıl erişeceğimizi öğrenmenizi sağlar.
   
 - Bölüm 3: Templates
-  * Bu bölüm Django şablonlarını öğrenmenizi sağlar
+  * Bu bölüm Django şablonlarını öğrenmenizi sağlar.
+
+- Bölüm 4: Static Files
+  * BU bölüm Django'da css, js, resim dosyalarıyla nasıl çalışacağımızı öğrenmemizi sağlar. 

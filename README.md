@@ -10,4 +10,7 @@
   * Bu bölüm Django şablonlarını öğrenmenizi sağlar.
 
 - Bölüm 4: Static Files
-  * BU bölüm Django'da css, js, resim dosyalarıyla nasıl çalışacağımızı öğrenmemizi sağlar. 
+  * Bu bölüm Django'da css, js, resim dosyalarıyla nasıl çalışacağımızı öğrenmemizi sağlar. 
+
+- Bölüm 5: Bootstrap
+  * Bu bölüm Bootstrap kütüphanesinin linklerini dosyalarımıza nasıl aktaracağımızı öğrenmemizi sağlar.

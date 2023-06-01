@@ -14,3 +14,6 @@
 
 - Bölüm 5: Bootstrap
   * Bu bölüm Bootstrap kütüphanesinin linklerini dosyalarımıza nasıl aktaracağımızı öğrenmemizi sağlar.
+
+- Bölüm 6: Bootstrap Design
+  * Bu bölüm sayfamızı güzelleştirmemizi sağlar.

@@ -100,4 +100,6 @@ Bu tasarı ile ilgili kendi base.html dosyamın kodlarını bırakacağım.. Yap
 
 Şuan bütün base.html dosyamız bu şekilde gözüküyor. Peki sayfamızda ne gibi değişikler oldu?
 style.css ve base.css dosyalarımızın içini temizleyelim. 
-Böylelikle yazdığımız kodlar düzgünce çalışacak. Ancak kodlarımızı base.html dosyamıza yazdığımız için farklı sayfalara da gitsek sayfa görüntümüz değişmeyecek bunu da düzenleyebilmek için parçalı templateleri öğreneceiz.
+Böylelikle yazdığımız kodlar düzgünce çalışacak. Ancak kodlarımızı base.html dosyamıza yazdığımız için farklı sayfalara da gitsek sayfa görüntümüz değişmeyecek bunu da düzenlemek için base.html içindeki kodlarımızı parçalamamız lazım. Bu işlemler için aşağıdaki YouTube linkinden adımları takip edebilirsiniz.
+
+[Partial Templates](https://youtu.be/slq_tlEX6Rk)

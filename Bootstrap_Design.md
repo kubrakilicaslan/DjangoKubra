@@ -103,3 +103,61 @@ style.css ve base.css dosyalarımızın içini temizleyelim.
 Böylelikle yazdığımız kodlar düzgünce çalışacak. Ancak kodlarımızı base.html dosyamıza yazdığımız için farklı sayfalara da gitsek sayfa görüntümüz değişmeyecek bunu da düzenlemek için base.html içindeki kodlarımızı parçalamamız lazım. Bu işlemler için aşağıdaki YouTube linkinden adımları takip edebilirsiniz.
 
 [Partial Templates](https://youtu.be/slq_tlEX6Rk)
+
+
+## Link Ekleme
+
+Daha önceden sayfa adresimizin yanına /blogs yazdığımızda blogs sayfasına gidiyorduk peki her sefferinde adres mi değiştireceğiz?   
+Tabiki de hayır. Sayfa üzerindeki linklere tıkladığımızda istediğimiz sayfaya gidebiliyor olmalıyız. O halde linklerimizi aktifleştirelim.  
+Öncelikli olarak urls.py dosyamıza gelip linklerimize isim verelim.
+
+```python
+urlpatterns = [
+    path("",views.index, name= "home"),
+    path("blogs",views.blogs, name= "blogs"),
+    path("blogs/<int:id>", views.blog_details, name="blog_details"),
+]
+```
+Bu linkleri kullanabilmek için navbar.html dosyamızda da bazı değişiklikler yapmamız gerekiyor.
+
+```html
+<nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" href="{% url 'home' %}">Blogapp</a>
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'home' %}">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nac-link" href="{% url 'blogs' %}">Blogs</a>
+            </li>
+        </ul>
+            
+    </div>
+</nav>
+```
+Bloglarımızın içeriğini görmek için ise _blog.html dosyamızı düzenleyelim.
+
+```html
+{% load static %}
+
+<div  class="card mb-3">
+    <div class="row">
+        <div class="col-md-3">
+            <img src="{% static 'img/1.jpeg' %}" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-9">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <a href="{% url 'blog_details' 1 %}">
+                    Köprü
+                </a>
+                </h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, velit.</p>
+            </div>
+        </div>
+    </div>
+</div>
+```
+
+Şimdilik her blog bilgimiz aynı gözüküyor. Daha sonra verileri dinamik hale getireceğiz.

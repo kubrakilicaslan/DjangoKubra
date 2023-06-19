@@ -1,4 +1,4 @@
-# Django Apps
+# **Django Apps**
 
 ## Dinamik Veri
 Verilerimizi dinamik halde kullanmayı öğreneceğimizi söylemiştik. Öncelikle views.py dosyamızın içinde bir içiçe liste oluşturalım ve dinamik olmasını istediğimiz parametreleri girelim. Üç blog oluşturduğumuzdan yazdığımız parametreleri üç kere tekrarlayalım. id,title,image,is_active,is_home ve description parametrelerini girelim ve şimdilik bu verilerle hareket edelim. views.py dosyamızda daha önceden açtığımız ana sayfamız, blog sayfamız ve blog detayları sayfamız için fonksiyonlarımız mevcuttu. Bu fonksiyonların içine context isimli bir liste tanımlayıp listeler arası bağlantıyı kurmaya çalışalım.  

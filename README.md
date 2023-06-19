@@ -18,5 +18,5 @@
 - Bölüm 6: Bootstrap Design
   * Bu bölüm sayfamızı güzelleştirmemizi sağlar.
 
--Bölüm 7: Dynamic Data
-  * Bu bölüm verileri dinamik halde kullanmayı öğrenmemizi sağlar.
+- Bölüm 7: Dynamic Data
+  Bu bölüm verileri dinamik halde kullanmayı öğrenmemizi sağlar.

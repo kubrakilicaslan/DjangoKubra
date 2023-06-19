@@ -20,3 +20,6 @@
 
 - Bölüm 7: Dynamic Data
   * Bu bölüm verileri dinamik halde kullanmayı öğrenmemizi sağlar.
+
+- Bölüm 8: Blog Details
+  * Bu bölüm bloglarımızın detaylarını şekillendirmemizi sağlar.

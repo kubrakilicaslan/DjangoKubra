@@ -23,3 +23,6 @@
 
 - Bölüm 8: Blog Details
   * Bu bölüm bloglarımızın detaylarını şekillendirmemizi sağlar.
+
+- Bölüm 9: Models_Migrations
+  * Bu bölüm yeni model oluşturmayı ve oluşturulan modelleri migrate etmeyi öğrenmemizi sağlar.
